@@ -1,0 +1,14 @@
+
+n1=var('n1')
+n2=var('n2')
+H0=var('H0')
+g=var('g')
+
+P = matrix([sqrt(H0/g), 0, -sqrt(H0/g)],[ cos(x), -sin(x), cos(x)],[ sin(x), cos(x),sin(x)])
+print 
+
+v1= [sqrt(H0/g), 0, -sqrt(H0/g)]
+v2= [ cos(x), -sin(x), cos(x)]
+v3= [ sin(x), cos(x),sin(x)]
+p=matrix(v1,v2,v3)
+
